@@ -1,6 +1,7 @@
 import Header from "./components/header/Header"
 import About from "./pages/about/About"
 import Home from "./pages/home/Home"
+import Skills from "./pages/skills/Skills"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
+        <Skills />
       </main>
     </>
   )
