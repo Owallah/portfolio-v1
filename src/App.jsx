@@ -1,3 +1,4 @@
+import Footer from "./components/footer/Footer"
 import Header from "./components/header/Header"
 import About from "./pages/about/About"
 import Contact from "./pages/contacts/Contact"
@@ -20,6 +21,7 @@ function App() {
         <Services />
         <Qualifications />
         <Contact />
+        <Footer />
       </main>
     </>
   )
