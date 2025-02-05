@@ -1,6 +1,5 @@
 import "./About.css";
 import AboutPic from "../../assets/about.jpeg";
-import Resume from "../../assets/resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -25,7 +24,7 @@ const About = () => {
             exceptional user experiences and meeting both customer and business
             needs.
           </p>
-          <a download="" href={Resume} className="button button_flex">
+          <a href="https://docs.google.com/document/d/15o36ECe1V6HmG3iH2vzOUS3Fl2lcK9ha37Va7YxypcM/edit?usp=sharing" target="_blank" className="button button_flex">
             Download Resume
             <svg
                 className="button_icon"

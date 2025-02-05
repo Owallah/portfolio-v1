@@ -56,7 +56,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li className="nav_item">
-                        <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav === "#portfolio" ? 'nav_link active-link flexColCenter' : 'nav_link flexColCenter'}>
+                        <a href="#projects" onClick={() => setActiveNav("#portfolio")} className={activeNav === "#portfolio" ? 'nav_link active-link flexColCenter' : 'nav_link flexColCenter'}>
                         <div className="nav_icon">
                             <AccountTree className='nav_icon' /> 
                             </div>
