@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import Image from "../../assets/about.jpeg"
 import ElkinWeb from '../../assets/elkinweb.png'
+import Shop from "../../assets/shop.png"
 
 // const projectsData = [
 //   {
@@ -91,6 +92,13 @@ const projectsData = [
     description: "Built using the MERN Stack. This is an authentication project that employs modern auth practices like JWT. Backend is in NodeJs and ExpressJs. Frontend is ReactJs and DB is Mongo.",
     link: "https://github.com/Owallah/MERN-AUTH",
     image: "https://masterlocks.com/cdn/shop/products/IMG_4191_189ded38-6580-46fa-99a8-150e2f430571_700x700.png?v=1715628695"
+  },
+  {
+    id: 4,
+    title: "Owallah's Shop",
+    description: "This project is a product page built using React, React Query, and TypeScript. It fetches product details from the Fake Store Api(https://fakestoreapi.com/products), displays them, and allows users to rate and review products. It also implements a mock admin dashboard with authendication and analytics. It utilizes the CRUD operations.",
+    link: "https://the-band-interview.vercel.app/",
+    image: Shop
   },
 ];
 
