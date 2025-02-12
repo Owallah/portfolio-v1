@@ -3,6 +3,7 @@ import "./Projects.css";
 import Image from "../../assets/about.jpeg"
 import ElkinWeb from '../../assets/elkinweb.png'
 import Shop from "../../assets/shop.png"
+import Movies from "../../assets/movies.png"
 
 // const projectsData = [
 //   {
@@ -99,6 +100,13 @@ const projectsData = [
     description: "This project is a product page built using React, React Query, and TypeScript. It fetches product details from the Fake Store Api(https://fakestoreapi.com/products), displays them, and allows users to rate and review products. It also implements a mock admin dashboard with authendication and analytics. It utilizes the CRUD operations.",
     link: "https://the-band-interview.vercel.app/",
     image: Shop
+  },
+  {
+    id: 5,
+    title: "Owallah's Movies",
+    description: "Owallah's Movies is a responsive web application that allows users to explore popular movies, search for specific titles, and manage their favourite movies. Built with React and powered by The Movie Database (TMDB) API, the app provides a seamless user experience with features like dynamic search, movie details, and a favourites list.",
+    link: "https://owallah-movies.netlify.app/",
+    image: Movies
   },
 ];
 
