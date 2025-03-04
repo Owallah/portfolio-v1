@@ -4,72 +4,7 @@ import Image from "../../assets/about.jpeg"
 import ElkinWeb from '../../assets/elkinweb.png'
 import Shop from "../../assets/shop.png"
 import Movies from "../../assets/movies.png"
-
-// const projectsData = [
-//   {
-//     id: 1,
-//     title: "ElkinGroup",
-//     description: "Developed a responsive official website for Elkin Group using React.js, enhancing the company’s digital presence and increasing visitor engagement by 25%.",
-//     link: "https://elkingroup.co.ke",
-//     image: {Image},
-//   },
-//   {
-//     id: 2,
-//     title: "Art Vista",
-//     description: "Built a platform for artists to showcase their work using React.js and Ruby with Sinatra, fostering a community for art enthusiasts.",
-//     link: "https://artvista.com",
-//     image: {Image},
-//   },
-//   {
-//     id: 3,
-//     title: "BeatRoute",
-//     description: "Scrum Master for a collaborative project to create a playlist curation website using React.js, focusing on user interaction and smooth data retrieval.",
-//     link: "https://beatroute.com",
-//     image: {Image},
-//   },
-//   {
-//     id: 4,
-//     title: "ArStudy",
-//     description: "Developed an AR-based Android application that gamifies classroom learning, merging educational technology with innovative mobile solutions.",
-//     link: "https://arstudy.com",
-//     image: {Image},
-//   },
-// ];
-
-// const Projects = () => {
-//   return (
-//     <section className="projects section" id="projects">
-//       <h2 className="section_title">Projects</h2>
-//       <span className="section_subtitle">What I've Built</span>
-
-//       <div className="projects_container container grid">
-//         {projectsData.map((project) => (
-//           <div className="projects_card" key={project.id}>
-//             <img
-//               src={Image}
-//               alt={project.title}
-//               className="projects_image"
-//             />
-//             <div className="projects_content">
-//               <h3 className="projects_title">{project.title}</h3>
-//               <p className="projects_description">{project.description}</p>
-//               <a
-//                 href={project.link}
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="projects_button"
-//               >
-//                 View Project
-//               </a>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
+import Monarky from "../../assets/monarky.png"
 
 
 const projectsData = [
@@ -107,6 +42,13 @@ const projectsData = [
     description: "Owallah's Movies is a responsive web application that allows users to explore popular movies, search for specific titles, and manage their favourite movies. Built with React and powered by The Movie Database (TMDB) API, the app provides a seamless user experience with features like dynamic search, movie details, and a favourites list.",
     link: "https://owallah-movies.netlify.app/",
     image: Movies
+  },
+  {
+    id: 6,
+    title: "Monarky Concepts",
+    description: "Monarky Concepts is an official website for a company that deals in Agricultural Products. Build with React.js, MaterialUI, and CSS.",
+    link: "https://monarkyconcepts.co.ke/",
+    image: Monarky
   },
 ];
 
